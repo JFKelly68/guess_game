@@ -1,0 +1,163 @@
+/**********************
+GENERAL
+**********************/
+
+header {
+	margin: 0 auto;
+	text-align: center;
+	background-color: blue;
+	font-family: "Raleway", sans-serif;
+}
+
+h1 {
+	margin: 2.5% auto;
+	width: 100%;
+	padding: 2%;
+	font-size: 2.5em;
+	color: white;
+}
+
+h2 {
+	margin: 2% auto;
+	max-width: 100%;
+	padding: 1% 0%;
+	background-color: navy;
+	text-decoration: underline;
+	color: white;
+}
+
+body {
+	background-color: grey;
+	font-family: "Lora", sans-serif;
+}
+
+
+#wrapper {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+
+#directions {
+	margin: .5em auto 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 2em auto;
+}
+
+#inner_wrap {
+	margin: 2em auto 1em;
+	width: 45%;
+	padding: 1em .5em .5em;
+	border-radius: 10px;
+	background-color: silver;
+}
+
+
+/**********************
+BOXES
+**********************/
+
+#input_box{
+	margin: .5em auto;
+	font-size: 1.25em;
+	max-width: 80%;
+	padding: 1.25em .25em;
+	text-align: center;
+	border: solid 2px blue;
+	border-radius: 10px;
+	font-family: "Lora", sans-serif;
+}
+
+#submit {
+	margin: .5em auto;
+	border: solid 2px blue;
+	border-radius: 5px;
+	background-color: navy;
+	padding: .35em;
+	color: white;
+	font-size: 1.25em;
+	font-family: "Quattrocento", sans-serif;
+	display: block;
+}
+
+#submit:hover{
+	background-color: white;
+	color: navy;
+}
+
+#remainder {
+	width: 100%;
+	margin: 3em auto 2em;
+	clear: both;
+	text-align: center;
+}
+
+.buttons{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#hint {
+	margin: 1.5em auto;
+	width: 40%;
+	text-align: center;
+	background-color: navy;
+	border: solid 2px red;
+	border-radius: 10px;
+	padding: .5em;
+	color: white;
+	font-family: "Quattrocento", sans-serif;
+
+}
+
+#hint:hover{
+	background-color: white;
+	color: red;
+}
+
+#replay {
+	margin: 1.5em auto;
+	width: 50%;
+	background-color: navy;
+	border: solid 2px blue;
+	border-radius: 10px;
+	padding: 2em;
+	color: white;
+	font-family: "Quattrocento", sans-serif;
+}
+
+#replay:hover{
+	background-color: grey;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: blue;
+
+
+}
+
+
+
+/**********************
+FOOTER
+**********************/
+
+footer {
+	margin: 3em auto 0em;
+	background-color: #555555;
+	padding: .25em 2em;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: .75em;
+	font-family: "Lora", sans-serif;
+}
+
+
+
